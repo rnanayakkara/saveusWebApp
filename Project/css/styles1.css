@@ -1,0 +1,43 @@
+@charset "utf-8";
+.tableHead{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:960px;}
+.tableNavigate{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:16px;background:#FFF;color:#000;text-align:center;width:960px; font-weight:bold}
+.NavigateData{width:192px;}
+.NavigateData:hover{background-color:#DDDDDD;}
+.tableMainLinks{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;text-align:center;width:960px;}
+.MainLinksData{font-size:28px;color:#FFF;width:320px;height:160px;background:#099;}
+.MainLinksParagraph{font-size:16px;color:#FFF;}
+.MainLinksData:hover{background:#DDDDDD;color:#000;}
+.MainLinksParagraph:hover{color:#000;}
+.tableAboutUs{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:960px;}
+.AboutUsData{width:480px;height:120px;font-size:28px;}
+.AboutUsParagraph{font-size:16px;color:#000;text-align:justify}
+.tableNewsHead{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:28px;width:960px;color:#099; font-weight:bold;}
+.tableNews{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:960px;}
+.NewsData{width:320px;height:80px;font-size:20px;text-align:left;border:#DDDDDD;border-style:solid}
+.NewsHead{width:120px;height:20px;font-size:20px;text-align:center;border:#DDDDDD;border-style:solid}
+.NewsDataParagraph{font-size:16px;color:#000;text-align:justify}
+.tableFollowUs{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:150px;height:50px;}
+.FollowUsImages{width:50px;height:50px;}
+.FollowUsImages:hover{width:75px;height:75px;}
+.tableEnd{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:960px;}
+.EndData{font-size:16px;color:#666;text-align:center;}
+a{text-decoration:none;color:#000;}
+a:hover{color:#099;}
+.register{text-align:right;}
+h3{font-weight:normal;text-align:center;font-size:28px;}
+h2{font-weight:normal;text-align:center;font-size:16px;}
+.tableFormHead{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:960px;background-color:#099;color:#FFF;}
+.formData{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:660px;background-color:#DDDDDD;color:#000;}
+.formLabel{text-align:right;}
+.steps{text-align:center;}
+.tableFormRegister{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:660px;background:#099;}
+.tableContact{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:24px; color:#000;background:#FFF; width:960px;}
+.tableContactHeading{color:#099;}
+.tableContactMessage{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:20px; color:#000;background:#FFF; width:960px;}
+.tableContactMessageHeading{font-size:24px;color:#099}
+.k2rmTeam{font-size:16px;color:#099;text-align:center;}
+.k2rmTeam:hover{color:#000;}
+.donateLink {color:#099; font-size:24px;}
+.donateLink:hover {color:#000; font-size:24px;}
+.ChildData{width:320px;height:80px;font-size:28px;text-align:center;border:#DDDDDD;border-style:solid}
+.tableSummaries{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:960px;font-size:16px;}

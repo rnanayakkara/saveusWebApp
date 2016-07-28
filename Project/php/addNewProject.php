@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tmpAdmin.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>::|SAVE US - MANAGE PROJECTS|::</title>
+<!--IMPORTING STYLESHEETS-->
+
+<link href="../css/admin.css" type="text/css" rel="stylesheet"/>
+<link href="../css/buttons.css" type="text/css" rel="stylesheet"/>
+
+<!--IMPORTING JAVESCRIPTS-->
+
+<script src="../js/addNewProjectForm.js" type="text/javascript" language="javascript"></script>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<?php
+error_reporting(0);
+session_start();
+
+/*CHECK WHETHER THE USER IS ALREADY LOGGED IN AND SESSION VARIBLES ARE SET*/
+
+if (!isset($_SESSION['userFName'])){
+
+header( 'Location: ../php/userloginform.php' ) ;
+}
+?>
+<table align="center">
+<tr><td><img src="../images/Logo.png" width="250px" height="90px"/></td></tr>
+</table>
+<table class="tblLinksHome" align="center" >
+<tr><td bgcolor="#FFFFFF"><a href="admin.php">GO TO ADMIN HOME	</a></td></tr>
+</table>
+<!-- InstanceBeginEditable name="EditRegion5" -->
+<table class="tblHead" align="center">
+  <tr>
+    <td >SAVEUS.COM - ADMIN PANEL - ADD NEW PROJECT</td>
+  </tr>
+</table>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="EditRegion4" -->
+<p>&nbsp;</p>
+
+<!--PROJECT FORM -->
+
+<form id="AddProject" name="formAddProject" enctype="multipart/form-data" method="post" action="../php/addProject.php" target="_self" onsubmit="return validateForm()">
+<table align="center" class="tblGeneral">
+    <tr><td colspan="2" align="center">(Maximum 30 Characters)</td></tr>
+    <tr><td width="340" align="right">Project Name</td><td width="608"><input type="text" id="Name" name="txtPname" size="50"/></td></tr>
+    <tr><td colspan="2" align="center">(Maximum 50 Characters)</td></tr>
+    <tr><td align="right">Purpose</td><td><input type="text" id="Purpose" name="txtPurpose" size="50"/></td></tr>
+    <tr><td colspan="2" align="center">(Maximum 500 Characters)</td></tr>
+    <tr><td align="right">Description</td><td><textarea id="Desc" name="txtPdesc" rows="5" cols="39"></textarea></td></tr>
+    <tr><td align="right">Photo</td><td><input type="file" id="Photo" name="imgPphoto" /></td></tr>
+    <tr><td colspan="2" align="center"><input type="submit" value="Add" class="generalBtn" /><input type="reset" class="generalBtn"/></td></tr>
+</table>
+</form>
+
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

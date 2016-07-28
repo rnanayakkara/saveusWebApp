@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+a{text-decoration:none; color:#000}
+a:hover{color:#099}
+.tblHead{font-family:"Berlin Sans FB";background:#099; width:960px; text-align:center; font-size:18px}
+.tblOptions{font-family:"Berlin Sans FB";font-size:18px;width:470px;height:160px;text-align:center;border:#DDDDDD;border-style:solid}
+.tblOptionsHead{color:#099}
+.tblGeneral{font-family:"Berlin Sans FB";width:960px;font-size:16px;}
+.tblAdminForms{font-family:"Berlin Sans FB";font-size:16px;}
+.tblLinksHome{font-family:"Berlin Sans FB";width:960px;text-align:center;background-color:#099}
+.reportHeading{font-family:"Berlin Sans FB";width:960px;background-color:#FFF;font-size:16px}
+.reportDetail{font-family:"Berlin Sans FB";width:960px;background-color:#FFF;font-size:16px;text-align:center}
+.reportSummary{font-family:"Berlin Sans FB";width:960px;background-color:#FFF;font-size:20px;text-align:right}
+.tblSelectDate{font-family:"Berlin Sans FB";width:960px;background-color:#FFF;font-size:16px;text-align:right}
+.membersLink {color:#099}
+.membersLink:hover{color:#000}
